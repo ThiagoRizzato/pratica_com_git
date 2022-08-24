@@ -1,15 +1,37 @@
-Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+Algoritmo "FunÃ§Ãµes"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Professor   : Edson Shinki Kaneshima
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 24/08/2022
 Var
-// Seção de Declarações das variáveis 
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
+   n1, n2, soma, opcao : inteiro
+
+funcao f_soma : inteiro
+var
+
+inicio
+
+   soma <- n1 + n2
+   retorne soma
+
+fimfuncao
+
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-
-
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   enquanto (opcao <> 9) faca
+      escreval ("1- Intoduzir numeros")
+      escreval ("2- Soma")
+      leia (opcao)
+      escolha (opcao)
+      caso 1
+      escreva("Insira 2 numeros:")
+         leia (n1, n2)
+      caso 2
+         escreval ("A soma Ã©:",f_soma)
+      fimescolha
+   fimenquanto
 Fimalgoritmo
