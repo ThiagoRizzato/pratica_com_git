@@ -1,11 +1,11 @@
-Algoritmo "Funções"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "FunÃ§Ãµes"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Edson Shinki Kaneshima
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 24/08/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    n1, n2, soma, subtracao, multiplicacao, opcao : inteiro
 
 funcao f_soma : inteiro
@@ -27,32 +27,36 @@ inicio
 fimfuncao
 
 //Orivaldo
-Funcao f_multiplicacao
+funcao f_multiplicacao :inteiro
 var
 
 inicio
 
-multiplicacao <- n1*n2
+multiplicacao <- n1 * n2
 retorne multiplicacao
 fimfuncao
 
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    enquanto (opcao <> 9) faca
       escreval ("1- Intoduzir numeros")
       escreval ("2- Soma")
       escreval ("3- subtracao")
+      escreval ("4- MultiplicaÃ§Ã£o")
+      escreval ("9- para fechar")
       leia (opcao)
       escolha (opcao)
       caso 1
       escreva("Insira 2 numeros:")
          leia (n1, n2)
       caso 2
-         escreval ("A soma é:",f_soma)
+         escreval ("A soma Ã©:",f_soma)
       caso 3
-         escreval ("A subitraçao é: ",f_subtracao)
+         escreval ("A subitraÃ§ao Ã©: ",f_subtracao)
+      caso 4
+         escreval ("A multiplicaÃ§Ã£o Ã©: ",f_multiplicacao)
       fimescolha
    fimenquanto
 Fimalgoritmo
