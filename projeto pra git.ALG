@@ -6,7 +6,7 @@ Algoritmo "Funções"
 // Data atual  : 24/08/2022
 Var
    // Seção de Declarações das variáveis
-   n1, n2, soma, opcao : inteiro
+   n1, n2, soma, subtracao, opcao : inteiro
 
 funcao f_soma : inteiro
 var
@@ -17,6 +17,14 @@ inicio
    retorne soma
 
 fimfuncao
+funcao f_subtracao : inteiro
+var
+
+inicio
+
+  subtracao <- n1 - n2
+  retorne subtracao
+fimfuncao
 
 
 
@@ -25,6 +33,7 @@ Inicio
    enquanto (opcao <> 9) faca
       escreval ("1- Intoduzir numeros")
       escreval ("2- Soma")
+      escreval ("3- subtracao")
       leia (opcao)
       escolha (opcao)
       caso 1
@@ -32,6 +41,8 @@ Inicio
          leia (n1, n2)
       caso 2
          escreval ("A soma é:",f_soma)
+      caso 3
+         escreval ("A subitraçao é: ",f_subtracao)
       fimescolha
    fimenquanto
 Fimalgoritmo
