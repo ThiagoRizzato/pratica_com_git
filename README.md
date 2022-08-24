@@ -1,5 +1,5 @@
 # pratica_com_git
-Thiago - Gerente;
-Lucas - Soma, VisualG;
-Orivaldo - Mutiplicaçao, VisualG;
-Vinicius - Subitraçao, VisualG;
+Thiago Rizzato - Gerente
+Lucas Aguiar - Soma, VisualG
+Orivaldo - Mutiplicaçao, VisualG
+Vinicius macacari - Subitraçao, VisualG
