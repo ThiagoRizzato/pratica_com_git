@@ -1,27 +1,48 @@
-Algoritmo "divisão"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Vinícius Macacari de Almeida
+Algoritmo "FunÃ§Ãµes"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Professor   : Edson Shinki Kaneshima
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 24/08/2022
 Var
-// Seção de Declarações das variáveis 
-num1, num2, result: real
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
+   n1, n2, soma, subtracao, opcao : inteiro
+
+funcao f_soma : inteiro
+var
+
+inicio
+
+   soma <- n1 + n2
+   retorne soma
+
+fimfuncao
+funcao f_subtracao : inteiro
+var
+
+inicio
+
+  subtracao <- n1 - n2
+  retorne subtracao
+fimfuncao
+
+
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-
-Escreval("Bem vindo a calculadora de subtração")
-Escreval("------------------------------------")
-Escreva("Qual o 1º número?: ")
-Leia(num1)
-Escreva("Qual o 2º número?: ")
-Leia(num2)
-
-result <- num1 - num2
-
-Escreval("------------------------------------")
-Escreval("Resposta: ", result)
-
-
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   enquanto (opcao <> 9) faca
+      escreval ("1- Intoduzir numeros")
+      escreval ("2- Soma")
+      escreval ("3- subtracao")
+      leia (opcao)
+      escolha (opcao)
+      caso 1
+      escreva("Insira 2 numeros:")
+         leia (n1, n2)
+      caso 2
+         escreval ("A soma Ã©:",f_soma)
+      caso 3
+         escreval ("A subitraÃ§ao Ã©: ",f_subtracao)
+      fimescolha
+   fimenquanto
 Fimalgoritmo
